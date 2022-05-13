@@ -1,0 +1,2 @@
+remove C3131-C3139 on (29) Zähler-Modul II
+details: pictures\zaehler-modul-II.jpg
