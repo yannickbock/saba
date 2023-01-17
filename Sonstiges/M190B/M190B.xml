@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Yannick\Documents\GitHub\saba\Sonstiges\M190B\M190B.sch</source>
+    <date>12.11.2022 18:28:19</date>
+    <tool>Eeschema (5.1.7)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>M190B.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U101">
+      <value>L78L05_SOT89</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-89-3</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C71136</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L78L05_SOT89" description="Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F91DCB9</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>4µ7</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23733</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F92F6A5</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F93016B</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Male</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F951CFE</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB67FA7</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATtiny1616-M</value>
+      <footprint>Housings_DFN_QFN:UQFN-20-1EP_3x3mm_Pitch0.4mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3216_ATtiny1616-data-sheet-40001997B.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny1616-M" description="20MHz, 16kB Flash, 2kB SRAM, 256B EEPROM, VQFN-20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>634C6E9B</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x09</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x09_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x09" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>634F9F9B</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x09</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x09_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x09" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>634FB338</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x09">
+      <description>Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x09</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny406-M">
+      <aliases>
+        <alias>ATtiny806-M</alias>
+        <alias>ATtiny1606-M</alias>
+        <alias>ATtiny416-M</alias>
+        <alias>ATtiny816-M</alias>
+        <alias>ATtiny1616-M</alias>
+        <alias>ATtiny3216-M</alias>
+      </aliases>
+      <description>20MHz, 4kB Flash, 256B SRAM, 128B EEPROM, VQFN-20</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Microchip%208bit%20mcu%20AVR%20ATtiny406%20data%20sheet%2040001976A.pdf</docs>
+      <footprints>
+        <fp>VQFN*1EP*3x3mm*P0.4mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny406-M</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA2" type="BiDi"/>
+        <pin num="2" name="PA3" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="PA4" type="BiDi"/>
+        <pin num="6" name="PA5" type="BiDi"/>
+        <pin num="7" name="PA6" type="BiDi"/>
+        <pin num="8" name="PA7" type="BiDi"/>
+        <pin num="9" name="PB5" type="BiDi"/>
+        <pin num="10" name="PB4" type="BiDi"/>
+        <pin num="11" name="PB3" type="BiDi"/>
+        <pin num="12" name="PB2" type="BiDi"/>
+        <pin num="13" name="PB1" type="BiDi"/>
+        <pin num="14" name="PB0" type="BiDi"/>
+        <pin num="15" name="PC0" type="BiDi"/>
+        <pin num="16" name="PC1" type="BiDi"/>
+        <pin num="17" name="PC2" type="BiDi"/>
+        <pin num="18" name="PC3" type="BiDi"/>
+        <pin num="19" name="~RESET~/PA0" type="BiDi"/>
+        <pin num="20" name="PA1" type="BiDi"/>
+        <pin num="21" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MC78L05_SOT89">
+      <aliases>
+        <alias>MC78L08_SOT89</alias>
+        <alias>MC78L12_SOT89</alias>
+        <alias>L78L33_SOT89</alias>
+        <alias>L78L05_SOT89</alias>
+        <alias>L78L06_SOT89</alias>
+        <alias>L78L08_SOT89</alias>
+        <alias>L78L09_SOT89</alias>
+        <alias>L78L10_SOT89</alias>
+        <alias>L78L12_SOT89</alias>
+        <alias>L78L15_SOT89</alias>
+        <alias>L78L18_SOT89</alias>
+        <alias>L78L24_SOT89</alias>
+        <alias>MCP1804x-1802xMB</alias>
+        <alias>MCP1804x-2502xMB</alias>
+        <alias>MCP1804x-3002xMB</alias>
+        <alias>MCP1804x-3302xMB</alias>
+        <alias>MCP1804x-5002xMB</alias>
+        <alias>MCP1804x-A002xMB</alias>
+        <alias>MCP1804x-C002xMB</alias>
+      </aliases>
+      <description>Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC78L05_SOT89</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATtiny.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="IC3101_P4">
+      <node ref="J5" pin="4"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="2" name="IC3101_P3">
+      <node ref="U1" pin="7"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="3" name="IC3101_P2">
+      <node ref="U1" pin="6"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="5" name="+5V">
+      <node ref="U101" pin="1"/>
+      <node ref="C102" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="8" name="UPDI">
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="9" name="IC3101_P16">
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="10" name="IC3101_P6">
+      <node ref="J5" pin="6"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="11" name="IC3101_P1">
+      <node ref="J5" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="J4" pin="1"/>
+      <node ref="U101" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="21"/>
+      <node ref="C101" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="14" name="IC3101_P13">
+      <node ref="J3" pin="6"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="15" name="Net-(J5-Pad9)">
+      <node ref="J5" pin="9"/>
+    </net>
+    <net code="16" name="IC3101_P8">
+      <node ref="U1" pin="13"/>
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="17" name="IC3101_P7">
+      <node ref="U1" pin="12"/>
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="18" name="IC3101_P5">
+      <node ref="U1" pin="9"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="19" name="Net-(J3-Pad9)">
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="20" name="Net-(J3-Pad8)">
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="21" name="IC3101_P12">
+      <node ref="U1" pin="14"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="22" name="IC3101_P14">
+      <node ref="J3" pin="5"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="23" name="IC3101_P15">
+      <node ref="U1" pin="16"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="24" name="+12V">
+      <node ref="J3" pin="2"/>
+      <node ref="C101" pin="1"/>
+      <node ref="U101" pin="3"/>
+    </net>
+  </nets>
+</export>

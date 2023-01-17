@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name saba_924x_tipp-tasten-modul)(type KiCad)(uri ${KIPRJMOD}/saba_924x_tipp-tasten-modul.pretty)(options "")(descr ""))
-  (lib (name Tipp-Tasten-Modul)(type KiCad)(uri ${KIPRJMOD}/Tipp-Tasten-Modul.pretty)(options "")(descr ""))
-)

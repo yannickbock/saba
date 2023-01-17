@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Klang-Modul)(type KiCad)(uri ${KIPRJMOD}/Klang-Modul.pretty)(options "")(descr ""))
+)

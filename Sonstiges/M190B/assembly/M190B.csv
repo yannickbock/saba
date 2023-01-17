@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC
+"4µ7","C102","Capacitors_SMD:C_0402","C23733"
+"100nF","C101,C103","Capacitors_SMD:C_0402","C1525"
+"ATtiny1616-M","U1","Housings_DFN_QFN:UQFN-20-1EP_3x3mm_Pitch0.4mm","C507118"
+"L78L05_SOT89","U101","TO_SOT_Packages_SMD:SOT-89-3","C71136"

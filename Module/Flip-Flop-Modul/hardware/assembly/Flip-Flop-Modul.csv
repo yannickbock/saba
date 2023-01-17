@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+"2.2µF","C1,C2","Capacitors_SMD:C_0805","C49217"
+"100nF","C3,C4","Capacitors_SMD:C_0805","C49678"
+"5V1","D11,D12,D13,D14","Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal",""
+"Conn_01x05","J1","Flip-Flop-Modul:Connector_01x05_5mm_Stocko_Horizontal",""
+"Conn_01x13","J2","Flip-Flop-Modul:Connector_01x13_5mm",""
+"ICSP","J3","Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm",""
+"10k","R1","Resistors_SMD:R_0805","C17414"
+"1k","R11,R12,R13,R14,R1001,R1003,R1006,R1011","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"10k","R21,R22,R23,R24,R33,R34,R41,R42,R43,R44,R51,R52,R53,R54,R61,R62","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"BC547","T32,T41,T42,T51,T52,T61,T1001,T1003,T1006,T1011","TO_SOT_Packages_THT:TO-92_Molded_Wide_Oval",""
+"ATmega8A-AU","U1","Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm","C16190"
+"LM78L05","U2","TO_SOT_Packages_SMD:SOT-89-3","C71136"
