@@ -1,0 +1,484 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x09 J1
+U 1 1 62DCE5FD
+P 10650 6400
+F 0 "J1" V 10775 6396 50  0001 C CNN
+F 1 "Conn_01x09" V 10776 6396 50  0001 C CNN
+F 2 "Abstimmspannungs-Modul:Connector_01x09_5mm" H 10650 6400 50  0001 C CNN
+F 3 "~" H 10650 6400 50  0001 C CNN
+	1    10650 6400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_POT P512
+U 1 1 633E23D4
+P 2300 2550
+F 0 "P512" V 2093 2550 50  0000 C CNN
+F 1 "1k" V 2184 2550 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Piher_PT-15h5_Vertical_Px5.0mm_Py10.0mm" H 2300 2550 50  0001 C CNN
+F 3 "~" H 2300 2550 50  0001 C CNN
+	1    2300 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT P516
+U 1 1 633E27E5
+P 2100 1100
+F 0 "P516" V 1893 1100 50  0000 C CNN
+F 1 "100k" V 1984 1100 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Piher_PT-15h5_Vertical_Px5.0mm_Py10.0mm" H 2100 1100 50  0001 C CNN
+F 3 "~" H 2100 1100 50  0001 C CNN
+	1    2100 1100
+	0    1    1    0   
+$EndComp
+Text GLabel 10450 6200 1    50   Output ~ 0
++45V
+Text GLabel 11050 6200 1    50   Output ~ 0
++15V
+$Comp
+L power:GND #PWR0101
+U 1 1 633E35FA
+P 10750 5600
+F 0 "#PWR0101" H 10750 5350 50  0001 C CNN
+F 1 "GND" H 10750 5450 50  0000 C CNN
+F 2 "" H 10750 5600 50  0001 C CNN
+F 3 "" H 10750 5600 50  0001 C CNN
+	1    10750 5600
+	-1   0    0    1   
+$EndComp
+Text GLabel 10950 6200 1    50   Input ~ 0
+MUTING
+Text GLabel 10850 6200 1    50   Input ~ 0
+TIMING
+Text GLabel 10350 6200 1    50   Output ~ 0
+AFC_02
+Text GLabel 10250 6200 1    50   Output ~ 0
+AFC_01
+Text GLabel 10550 6200 1    50   Input ~ 0
+OUT_TOP
+Text GLabel 10650 6200 1    50   Input ~ 0
+OUT_BOTTOM
+Wire Wire Line
+	10750 5600 10750 6200
+$Comp
+L Device:R R504
+U 1 1 633E5270
+P 950 3650
+F 0 "R504" H 1020 3696 50  0000 L CNN
+F 1 "1.5k" H 1020 3605 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 880 3650 50  0001 C CNN
+F 3 "~" H 950 3650 50  0001 C CNN
+	1    950  3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 950  3500 1    50   Input ~ 0
++45V
+$Comp
+L Device:CP C504
+U 1 1 633E811F
+P 950 4150
+F 0 "C504" H 1068 4196 50  0000 L CNN
+F 1 "22µF" H 1068 4105 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 988 4000 50  0001 C CNN
+F 3 "~" H 950 4150 50  0001 C CNN
+	1    950  4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 633E8890
+P 950 4300
+F 0 "#PWR0102" H 950 4050 50  0001 C CNN
+F 1 "GND" H 950 4150 50  0000 C CNN
+F 2 "" H 950 4300 50  0001 C CNN
+F 3 "" H 950 4300 50  0001 C CNN
+	1    950  4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R514
+U 1 1 633E92EA
+P 2100 1900
+F 0 "R514" H 2030 1854 50  0000 R CNN
+F 1 "150k" H 2030 1945 50  0000 R CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2030 1900 50  0001 C CNN
+F 3 "~" H 2100 1900 50  0001 C CNN
+	1    2100 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R516
+U 1 1 633E98C9
+P 2100 1400
+F 0 "R516" H 2030 1354 50  0000 R CNN
+F 1 "270k" H 2030 1445 50  0000 R CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2030 1400 50  0001 C CNN
+F 3 "~" H 2100 1400 50  0001 C CNN
+	1    2100 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R511
+U 1 1 633E9D19
+P 3100 2550
+F 0 "R511" V 2893 2550 50  0000 C CNN
+F 1 "1M" V 2984 2550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3030 2550 50  0001 C CNN
+F 3 "~" H 3100 2550 50  0001 C CNN
+	1    3100 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R512
+U 1 1 633E9F46
+P 2600 2550
+F 0 "R512" V 2393 2550 50  0000 C CNN
+F 1 "27k" V 2484 2550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2530 2550 50  0001 C CNN
+F 3 "~" H 2600 2550 50  0001 C CNN
+	1    2600 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R517
+U 1 1 633EA243
+P 3150 1650
+F 0 "R517" V 2943 1650 50  0000 C CNN
+F 1 "27k" V 3034 1650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3080 1650 50  0001 C CNN
+F 3 "~" H 3150 1650 50  0001 C CNN
+	1    3150 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R501
+U 1 1 633EA981
+P 5800 4350
+F 0 "R501" H 5870 4396 50  0000 L CNN
+F 1 "47k" H 5870 4305 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5730 4350 50  0001 C CNN
+F 3 "~" H 5800 4350 50  0001 C CNN
+	1    5800 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R502
+U 1 1 633EB176
+P 5800 3850
+F 0 "R502" H 5870 3896 50  0000 L CNN
+F 1 "47k" H 5870 3805 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5730 3850 50  0001 C CNN
+F 3 "~" H 5800 3850 50  0001 C CNN
+	1    5800 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 633ECBEE
+P 2100 2050
+F 0 "#PWR0103" H 2100 1800 50  0001 C CNN
+F 1 "GND" H 2100 1900 50  0000 C CNN
+F 2 "" H 2100 2050 50  0001 C CNN
+F 3 "" H 2100 2050 50  0001 C CNN
+	1    2100 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2550 1900 2550
+Wire Wire Line
+	1900 2550 1900 2800
+Text GLabel 3250 2850 2    50   Output ~ 0
+OUT_BOTTOM
+Text GLabel 3250 2550 2    50   Output ~ 0
+TIMING
+Wire Wire Line
+	2100 1550 2100 1650
+Wire Wire Line
+	2750 2550 2850 2550
+Wire Wire Line
+	2850 2550 2850 2100
+Connection ~ 2850 2550
+Wire Wire Line
+	2850 2550 2950 2550
+Wire Wire Line
+	2700 1650 2850 1650
+Connection ~ 2850 1650
+Wire Wire Line
+	2850 1650 2850 1100
+Wire Wire Line
+	2400 1650 2100 1650
+Connection ~ 2100 1650
+Wire Wire Line
+	2100 1650 2100 1750
+$Comp
+L power:GND #PWR0104
+U 1 1 633FAE31
+P 1800 1250
+F 0 "#PWR0104" H 1800 1000 50  0001 C CNN
+F 1 "GND" H 1800 1100 50  0000 C CNN
+F 2 "" H 1800 1250 50  0001 C CNN
+F 3 "" H 1800 1250 50  0001 C CNN
+	1    1800 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1250 1800 1100
+Wire Wire Line
+	1800 1100 1950 1100
+Wire Wire Line
+	2250 1100 2850 1100
+Wire Wire Line
+	3000 1650 2850 1650
+Text GLabel 3300 1650 2    50   Output ~ 0
+OUT_TOP
+Wire Wire Line
+	3250 2850 2300 2850
+Wire Wire Line
+	2300 2850 2300 2700
+$Comp
+L power:GND #PWR0105
+U 1 1 633FDDD0
+P 1900 3100
+F 0 "#PWR0105" H 1900 2850 50  0001 C CNN
+F 1 "GND" H 1900 2950 50  0000 C CNN
+F 2 "" H 1900 3100 50  0001 C CNN
+F 3 "" H 1900 3100 50  0001 C CNN
+	1    1900 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 5650 4350 0    50   Input ~ 0
+AFC_01
+Text GLabel 5650 3850 0    50   Input ~ 0
+AFC_02
+Text GLabel 1950 1650 0    50   UnSpc ~ 0
+TCA530_P8
+Wire Wire Line
+	1950 1650 2100 1650
+Text GLabel 3000 2100 2    50   UnSpc ~ 0
+TCA530_P6
+Wire Wire Line
+	3000 2100 2850 2100
+Connection ~ 2850 2100
+Wire Wire Line
+	2850 2100 2850 1650
+Text GLabel 1050 3900 2    50   UnSpc ~ 0
+TCA530_P5
+Wire Wire Line
+	950  3800 950  3900
+Wire Wire Line
+	1050 3900 950  3900
+Connection ~ 950  3900
+Wire Wire Line
+	950  3900 950  4000
+Text GLabel 6400 3850 2    50   UnSpc ~ 0
+TCA530_P10
+Text GLabel 6400 4350 2    50   UnSpc ~ 0
+TCA530_P11
+$Comp
+L Device:C C502
+U 1 1 63412AB5
+P 6250 4100
+F 0 "C502" H 6135 4054 50  0000 R CNN
+F 1 "1µF" H 6135 4145 50  0000 R CNN
+F 2 "Capacitors_THT:C_Rect_L4.6mm_W5.5mm_P2.50mm_MKS02_FKP02" H 6288 3950 50  0001 C CNN
+F 3 "~" H 6250 4100 50  0001 C CNN
+	1    6250 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6400 3850 6250 3850
+Wire Wire Line
+	5950 4350 6250 4350
+Wire Wire Line
+	6250 4250 6250 4350
+Connection ~ 6250 4350
+Wire Wire Line
+	6250 4350 6400 4350
+Wire Wire Line
+	6250 3950 6250 3850
+Connection ~ 6250 3850
+Wire Wire Line
+	6250 3850 5950 3850
+Text GLabel 5000 1700 0    50   UnSpc ~ 0
+TCA530_P5
+$Comp
+L Device:R R506
+U 1 1 63AC84F9
+P 4000 3650
+F 0 "R506" H 4070 3696 50  0000 L CNN
+F 1 "x" H 4070 3605 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3930 3650 50  0001 C CNN
+F 3 "~" H 4000 3650 50  0001 C CNN
+	1    4000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R513
+U 1 1 633E9736
+P 2550 1650
+F 0 "R513" V 2343 1650 50  0000 C CNN
+F 1 "68k" V 2434 1650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2480 1650 50  0001 C CNN
+F 3 "~" H 2550 1650 50  0001 C CNN
+	1    2550 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R508
+U 1 1 633EA549
+P 1900 2950
+F 0 "R508" H 1830 2904 50  0000 R CNN
+F 1 "1.5k" H 1830 2995 50  0000 R CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1830 2950 50  0001 C CNN
+F 3 "~" H 1900 2950 50  0001 C CNN
+	1    1900 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Abstimmspannungs-Modul:TCA530 IC501
+U 1 1 63AD29DA
+P 5600 3050
+F 0 "IC501" H 5600 4715 50  0000 C CNN
+F 1 "TCA530" H 5600 4624 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 5600 3050 50  0001 C CNN
+F 3 "" H 5600 3050 50  0001 C CNN
+	1    5600 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 1700 2    50   UnSpc ~ 0
+TCA530_P6
+Text GLabel 6200 1800 2    50   UnSpc ~ 0
+TCA530_P8
+Text GLabel 5000 2350 0    50   UnSpc ~ 0
+TCA530_P10
+Text GLabel 5000 2450 0    50   UnSpc ~ 0
+TCA530_P11
+Text GLabel 5000 1800 0    50   UnSpc ~ 0
+TCA530_P14
+Text GLabel 4000 3500 0    50   UnSpc ~ 0
+TCA530_P5
+Text GLabel 4000 3800 0    50   UnSpc ~ 0
+TCA530_P14
+$Comp
+L power:GND #PWR0106
+U 1 1 63AD90F1
+P 5600 3000
+F 0 "#PWR0106" H 5600 2750 50  0001 C CNN
+F 1 "GND" H 5600 2850 50  0000 C CNN
+F 2 "" H 5600 3000 50  0001 C CNN
+F 3 "" H 5600 3000 50  0001 C CNN
+	1    5600 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2900 5550 2950
+Wire Wire Line
+	5550 2950 5600 2950
+Wire Wire Line
+	5650 2950 5650 2900
+Wire Wire Line
+	5600 2950 5600 3000
+Connection ~ 5600 2950
+Wire Wire Line
+	5600 2950 5650 2950
+$Comp
+L Device:C C503
+U 1 1 63ADC235
+P 4850 2850
+F 0 "C503" H 4735 2804 50  0000 R CNN
+F 1 "1µF" H 4735 2895 50  0000 R CNN
+F 2 "Capacitors_THT:C_Rect_L4.6mm_W5.5mm_P2.50mm_MKS02_FKP02" H 4888 2700 50  0001 C CNN
+F 3 "~" H 4850 2850 50  0001 C CNN
+	1    4850 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C506
+U 1 1 63ADFDA1
+P 6900 2500
+F 0 "C506" H 6785 2454 50  0000 R CNN
+F 1 "1nF" H 6785 2545 50  0000 R CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 6938 2350 50  0001 C CNN
+F 3 "~" H 6900 2500 50  0001 C CNN
+	1    6900 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C507
+U 1 1 63AE0378
+P 4100 2250
+F 0 "C507" H 3985 2204 50  0000 R CNN
+F 1 "1nF" H 3985 2295 50  0000 R CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 4138 2100 50  0001 C CNN
+F 3 "~" H 4100 2250 50  0001 C CNN
+	1    4100 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2550 4850 2550
+Wire Wire Line
+	4850 2550 4850 2700
+$Comp
+L power:GND #PWR0107
+U 1 1 63AE9321
+P 4850 3000
+F 0 "#PWR0107" H 4850 2750 50  0001 C CNN
+F 1 "GND" H 4850 2850 50  0000 C CNN
+F 2 "" H 4850 3000 50  0001 C CNN
+F 3 "" H 4850 3000 50  0001 C CNN
+	1    4850 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1950 4100 1950
+Wire Wire Line
+	4100 1950 4100 2100
+$Comp
+L power:GND #PWR0108
+U 1 1 63AF0CEA
+P 4100 2400
+F 0 "#PWR0108" H 4100 2150 50  0001 C CNN
+F 1 "GND" H 4100 2250 50  0000 C CNN
+F 2 "" H 4100 2400 50  0001 C CNN
+F 3 "" H 4100 2400 50  0001 C CNN
+	1    4100 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 3950 1950 0    50   Input ~ 0
++15V
+Wire Wire Line
+	4100 1950 3950 1950
+Connection ~ 4100 1950
+Text GLabel 5000 2100 0    50   Input ~ 0
+TIMING
+Text GLabel 5000 2200 0    50   Input ~ 0
+MUTING
+Text GLabel 6900 2350 0    50   UnSpc ~ 0
+TCA530_P14
+$Comp
+L power:GND #PWR0109
+U 1 1 63AFA51A
+P 6900 2650
+F 0 "#PWR0109" H 6900 2400 50  0001 C CNN
+F 1 "GND" H 6900 2500 50  0000 C CNN
+F 2 "" H 6900 2650 50  0001 C CNN
+F 3 "" H 6900 2650 50  0001 C CNN
+	1    6900 2650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

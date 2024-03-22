@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "NF-Filter-Modul")(type "KiCad")(uri "${KIPRJMOD}/NF-Filter-Modul.pretty")(options "")(descr ""))
+)

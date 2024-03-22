@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Klang-Modul-rescue")(type "Legacy")(uri "${KIPRJMOD}/Klang-Modul-rescue.lib")(options "")(descr ""))
+)

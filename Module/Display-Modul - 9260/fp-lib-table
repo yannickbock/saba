@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Display-Modul")(type "KiCad")(uri "${KIPRJMOD}/Display-Modul.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Netzteil-Modul-rescue")(type "Legacy")(uri "${KIPRJMOD}/Netzteil-Modul-rescue.lib")(options "")(descr ""))
+)

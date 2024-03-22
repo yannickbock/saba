@@ -1,0 +1,8 @@
+Comment,Designator,Footprint,LCSC
+"2.2µF","C60","Capacitor_SMD:C_0805_2012Metric","C49217"
+"100nF","C61","Capacitor_SMD:C_0805_2012Metric","C49678"
+"12pF","C62,C63","Capacitor_SMD:C_0805_2012Metric","C1804"
+"750","R20,R21,R22,R23,R24,R25,R26,R27","Resistor_SMD:R_1206_3216Metric","C17985"
+"47","R60","Resistor_SMD:R_0603_1608Metric","C23182"
+"STM32G030C8T6","U60","Package_QFP:LQFP-48_7x7mm_P0.5mm","C529329"
+"16MHz","Y60","Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm","C13738"

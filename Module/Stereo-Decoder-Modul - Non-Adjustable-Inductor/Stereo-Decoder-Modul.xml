@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Yannick\Documents\GitHub\saba\Module\Stereo-Decoder-Modul - Non-Adjustable-Inductor\Stereo-Decoder-Modul.kicad_sch</source>
+    <date>04.02.2023 21:17:48</date>
+    <tool>Eeschema (6.0.10)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Stereo-Decoder-Modul.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C901">
+      <value>220pF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0334025a-d626-4722-bce6-5ee3a4ef559d</tstamps>
+    </comp>
+    <comp ref="C902">
+      <value>470nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b885177-5964-4f3d-985a-10380c888a76</tstamps>
+    </comp>
+    <comp ref="C903">
+      <value>220nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36f0f831-0a2c-4989-a6b2-811c19eb8e7c</tstamps>
+    </comp>
+    <comp ref="C906">
+      <value>220nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbafc10d-5305-4c8a-a472-483afe096873</tstamps>
+    </comp>
+    <comp ref="C911">
+      <value>6.8nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a5a6f23-f175-41ab-a1e5-bbc740bdd1e9</tstamps>
+    </comp>
+    <comp ref="C912">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>902766d1-e1e5-4423-880e-4c60eccef25f</tstamps>
+    </comp>
+    <comp ref="C913">
+      <value>4.7µF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36e58e64-c9a9-4bdb-b021-865068ec6177</tstamps>
+    </comp>
+    <comp ref="C914">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>557a154f-8ced-438b-b92d-b6c2df45bb5a</tstamps>
+    </comp>
+    <comp ref="C916">
+      <value>4.7µF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ee4cb39-8e00-4d46-bb13-1a539d9eae06</tstamps>
+    </comp>
+    <comp ref="C918">
+      <value>220µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aba77b88-fd7c-4da2-bd76-0f1d048353fb</tstamps>
+    </comp>
+    <comp ref="C923">
+      <value>22µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>910dca61-a2e9-4918-a181-48ca8f236067</tstamps>
+    </comp>
+    <comp ref="C924">
+      <value>18nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf35da81-7f02-4797-8724-6f332a66a65a</tstamps>
+    </comp>
+    <comp ref="C926">
+      <value>12nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a596037-993e-41ce-8812-9e0599d6f60d</tstamps>
+    </comp>
+    <comp ref="C927">
+      <value>1.2nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a40aae2-3592-402d-a687-74d018bae154</tstamps>
+    </comp>
+    <comp ref="C928">
+      <value>12nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca883f9b-4910-4c99-bf81-0a40c52fc139</tstamps>
+    </comp>
+    <comp ref="C931">
+      <value>18nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44deb821-867c-409d-9466-8b17543cedbf</tstamps>
+    </comp>
+    <comp ref="C943">
+      <value>22µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a43c25a-f7a3-43ca-be62-2235f2e1e631</tstamps>
+    </comp>
+    <comp ref="C944">
+      <value>18nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ebac868-c1b8-4ec7-8ad6-24e4aecd1a60</tstamps>
+    </comp>
+    <comp ref="C946">
+      <value>12nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ec86b99-7bbc-44f0-84ab-230b956ee3c2</tstamps>
+    </comp>
+    <comp ref="C947">
+      <value>1.2nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6409c29-4c85-49a7-a261-7a0b01ca691d</tstamps>
+    </comp>
+    <comp ref="C948">
+      <value>12nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc0c0acc-b49b-4ce6-b591-0b644afe8859</tstamps>
+    </comp>
+    <comp ref="C951">
+      <value>18nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_MKS4</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46c4346b-96a2-4eb0-8a37-7bb78ce501da</tstamps>
+    </comp>
+    <comp ref="D904">
+      <value>AA143</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ccc723e-606a-444e-befe-8265a87cc8d6</tstamps>
+    </comp>
+    <comp ref="D906">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a1d7624-bf94-4e4b-8132-e4d94c8de50a</tstamps>
+    </comp>
+    <comp ref="D907">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b002fd5-d534-44d3-8426-f025bddbe9a3</tstamps>
+    </comp>
+    <comp ref="IC901">
+      <value>TCA4500A</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_LongPads</footprint>
+      <libsource lib="Stereo-Decoder-Modul" part="TCA4500A" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62598be5-390f-4687-964c-e6163f79961c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x15</value>
+      <footprint>Stereo-Decoder-Modul:Connector_01x15_5mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x15" description="Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062dce5fd</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>3.3mH-4.7mH</value>
+      <footprint>Inductor_THT:L_Axial_L11.0mm_D4.5mm_P5.08mm_Vertical_Fastron_MECC</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a9e917c-098a-4b81-93ae-fd0a6c4a6c0b</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>3.3mH-4.7mH</value>
+      <footprint>Inductor_THT:L_Axial_L11.0mm_D4.5mm_P5.08mm_Vertical_Fastron_MECC</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>928ec2b9-f3fc-4835-ba23-1633a1656e82</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>3.3mH-4.7mH</value>
+      <footprint>Inductor_THT:L_Axial_L11.0mm_D4.5mm_P5.08mm_Vertical_Fastron_MECC</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6a19593-3412-4da2-a47a-ac44f275540c</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>3.3mH-4.7mH</value>
+      <footprint>Inductor_THT:L_Axial_L11.0mm_D4.5mm_P5.08mm_Vertical_Fastron_MECC</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a5fd13a-a688-4135-922a-bd2601a808d8</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>3.3mH-4.7mH</value>
+      <footprint>Inductor_THT:L_Axial_L11.0mm_D4.5mm_P5.08mm_Vertical_Fastron_MECC</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cff878db-45e0-4b91-8dc7-4733e363355a</tstamps>
+    </comp>
+    <comp ref="L6">
+      <value>3.3mH-4.7mH</value>
+      <footprint>Inductor_THT:L_Axial_L11.0mm_D4.5mm_P5.08mm_Vertical_Fastron_MECC</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>456af859-bc60-4a68-8c81-825a51b6c247</tstamps>
+    </comp>
+    <comp ref="L924">
+      <value>3.3mH-4.7mH</value>
+      <footprint>Inductor_THT:L_Axial_L11.0mm_D4.5mm_P5.08mm_Vertical_Fastron_MECC</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10ea2595-1ce7-4fdd-b19d-833b19b03af0</tstamps>
+    </comp>
+    <comp ref="L927">
+      <value>3.3mH-4.7mH</value>
+      <footprint>Inductor_THT:L_Axial_L11.0mm_D4.5mm_P5.08mm_Vertical_Fastron_MECC</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98eb24eb-186e-46e6-b85b-05e23a0441af</tstamps>
+    </comp>
+    <comp ref="L931">
+      <value>3.3mH-4.7mH</value>
+      <footprint>Inductor_THT:L_Axial_L11.0mm_D4.5mm_P5.08mm_Vertical_Fastron_MECC</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7ee4dfc-b2fd-4eeb-95f8-c855d95deb4b</tstamps>
+    </comp>
+    <comp ref="L944">
+      <value>3.3mH-4.7mH</value>
+      <footprint>Inductor_THT:L_Axial_L11.0mm_D4.5mm_P5.08mm_Vertical_Fastron_MECC</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>366a73d5-9ede-4c2c-8f86-725f0a98df8a</tstamps>
+    </comp>
+    <comp ref="L947">
+      <value>3.3mH-4.7mH</value>
+      <footprint>Inductor_THT:L_Axial_L11.0mm_D4.5mm_P5.08mm_Vertical_Fastron_MECC</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd591898-d294-4c50-8589-8d17434ca247</tstamps>
+    </comp>
+    <comp ref="L951">
+      <value>3.3mH-4.7mH</value>
+      <footprint>Inductor_THT:L_Axial_L11.0mm_D4.5mm_P5.08mm_Vertical_Fastron_MECC</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c0b16e6-790a-4c6b-b819-2d4efd713ffa</tstamps>
+    </comp>
+    <comp ref="P901">
+      <value>5k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Piher_PT-10-H01_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07d063d3-0c0a-4ded-b5de-a280e4050106</tstamps>
+    </comp>
+    <comp ref="P911">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Piher_PT-10-H01_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d2f42cc-5493-4e89-9ea1-89032c8ae841</tstamps>
+    </comp>
+    <comp ref="R901">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9738c090-8da1-4732-804c-1618116d4413</tstamps>
+    </comp>
+    <comp ref="R903">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec100516-83a3-40ac-818a-dddfab6ac093</tstamps>
+    </comp>
+    <comp ref="R904">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca333cb0-df1d-4f39-b4df-2cef9d1bf7ab</tstamps>
+    </comp>
+    <comp ref="R907">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6137b311-bcf3-49f2-a579-fd8e034af6d2</tstamps>
+    </comp>
+    <comp ref="R908">
+      <value>15k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c71b37f4-f066-4379-80d3-47d205ac00e6</tstamps>
+    </comp>
+    <comp ref="R912">
+      <value>5.1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca7009bb-58c5-48bc-b48d-cea1b9f44e39</tstamps>
+    </comp>
+    <comp ref="R913">
+      <value>39k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df34c0ba-0f20-45fc-a298-71ef445aff90</tstamps>
+    </comp>
+    <comp ref="R914">
+      <value>5.1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be804191-30d7-4bac-bd02-678be6a8b730</tstamps>
+    </comp>
+    <comp ref="R916">
+      <value>39k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8c328aa-0ab1-466b-976c-83d40b3fd8fd</tstamps>
+    </comp>
+    <comp ref="R917">
+      <value>680</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aaf8a98f-3bf6-4519-b4e1-65ef050a2311</tstamps>
+    </comp>
+    <comp ref="R918">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed59f771-7ecb-4098-8518-70aa596247de</tstamps>
+    </comp>
+    <comp ref="R921">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66123ad8-52b5-4fcb-b1a7-3b82a9012952</tstamps>
+    </comp>
+    <comp ref="R922">
+      <value>390k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdafbc49-7607-49f3-9d56-54ea9e157a0f</tstamps>
+    </comp>
+    <comp ref="R923">
+      <value>1.8k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c3ecfa7-1ee2-496d-9c9f-42a82a4fcf1e</tstamps>
+    </comp>
+    <comp ref="R931">
+      <value>1.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fecb8bf-5fa4-4ad9-a16b-f52fd829a91d</tstamps>
+    </comp>
+    <comp ref="R941">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>778384bc-5a58-4d08-ab23-43a49d20922a</tstamps>
+    </comp>
+    <comp ref="R942">
+      <value>390k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb4dd070-e7fb-4fce-8957-b54a4c28d040</tstamps>
+    </comp>
+    <comp ref="R943">
+      <value>1.8k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6c571d7-6ef5-4da8-8559-cccc018bee7e</tstamps>
+    </comp>
+    <comp ref="R951">
+      <value>1.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4809e8d3-002a-408b-90d0-f4505f4732ce</tstamps>
+    </comp>
+    <comp ref="T904">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33986c4f-619f-46f9-a8bf-12330f4b2862</tstamps>
+    </comp>
+    <comp ref="T907">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95f35757-e33f-4ffe-a6f0-31b6e3e58a8b</tstamps>
+    </comp>
+    <comp ref="T921">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ae32bea-d1b5-481e-825b-d488e5b01c19</tstamps>
+    </comp>
+    <comp ref="T941">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stereo-Decoder-Modul.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>415623e3-c1d6-49e8-970f-57febeb77dda</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x15">
+      <description>Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x15</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Stereo-Decoder-Modul" part="TCA4500A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA4500A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="" type="input"/>
+        <pin num="8" name="" type="input"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="" type="input"/>
+        <pin num="15" name="" type="input"/>
+        <pin num="16" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC547">
+      <description>0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad 6\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad 6\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Stereo-Decoder-Modul">
+      <uri>C:\Users\Yannick\Documents\GitHub\saba\Module\Stereo-Decoder-Modul - Non-Adjustable-Inductor/Stereo-Decoder-Modul.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad 6\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+30V">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R923" pin="2" pintype="passive"/>
+      <node ref="R943" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C901" pin="1" pintype="passive"/>
+      <node ref="C918" pin="2" pintype="passive"/>
+      <node ref="C926" pin="2" pintype="passive"/>
+      <node ref="C928" pin="2" pintype="passive"/>
+      <node ref="C946" pin="2" pintype="passive"/>
+      <node ref="C948" pin="2" pintype="passive"/>
+      <node ref="D907" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC901" pin="8" pintype="input"/>
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="P901" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="P901" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="P911" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R904" pin="2" pintype="passive"/>
+      <node ref="R921" pin="1" pintype="passive"/>
+      <node ref="R931" pin="2" pintype="passive"/>
+      <node ref="R941" pin="1" pintype="passive"/>
+      <node ref="R951" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(C901-Pad2)">
+      <node ref="C901" pin="2" pintype="passive"/>
+      <node ref="IC901" pin="15" pintype="input"/>
+      <node ref="R901" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C902-Pad1)">
+      <node ref="C902" pin="1" pintype="passive"/>
+      <node ref="R903" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C902-Pad2)">
+      <node ref="C902" pin="2" pintype="passive"/>
+      <node ref="C903" pin="1" pintype="passive"/>
+      <node ref="IC901" pin="13" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(C903-Pad2)">
+      <node ref="C903" pin="2" pintype="passive"/>
+      <node ref="IC901" pin="14" pintype="input"/>
+      <node ref="R903" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C906-Pad2)">
+      <node ref="C906" pin="2" pintype="passive"/>
+      <node ref="IC901" pin="10" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(C911-Pad1)">
+      <node ref="C911" pin="1" pintype="passive"/>
+      <node ref="IC901" pin="12" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(C911-Pad2)">
+      <node ref="C911" pin="2" pintype="passive"/>
+      <node ref="IC901" pin="2" pintype="input"/>
+      <node ref="P911" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C912-Pad1)">
+      <node ref="C912" pin="1" pintype="passive"/>
+      <node ref="C913" pin="1" pintype="passive"/>
+      <node ref="IC901" pin="5" pintype="input"/>
+      <node ref="R912" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C912-Pad2)">
+      <node ref="C912" pin="2" pintype="passive"/>
+      <node ref="IC901" pin="6" pintype="input"/>
+      <node ref="R912" pin="1" pintype="passive"/>
+      <node ref="R913" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C913-Pad2)">
+      <node ref="C913" pin="2" pintype="passive"/>
+      <node ref="R942" pin="2" pintype="passive"/>
+      <node ref="T941" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(C914-Pad1)">
+      <node ref="C914" pin="1" pintype="passive"/>
+      <node ref="IC901" pin="3" pintype="input"/>
+      <node ref="R914" pin="2" pintype="passive"/>
+      <node ref="R916" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C914-Pad2)">
+      <node ref="C914" pin="2" pintype="passive"/>
+      <node ref="C916" pin="1" pintype="passive"/>
+      <node ref="IC901" pin="4" pintype="input"/>
+      <node ref="R914" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C916-Pad2)">
+      <node ref="C916" pin="2" pintype="passive"/>
+      <node ref="R922" pin="1" pintype="passive"/>
+      <node ref="T921" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(C918-Pad1)">
+      <node ref="C918" pin="1" pintype="passive"/>
+      <node ref="IC901" pin="16" pintype="input"/>
+      <node ref="R908" pin="2" pintype="passive"/>
+      <node ref="R918" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C923-Pad1)">
+      <node ref="C923" pin="1" pintype="passive"/>
+      <node ref="R922" pin="2" pintype="passive"/>
+      <node ref="R923" pin="1" pintype="passive"/>
+      <node ref="T921" pin="1" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C923-Pad2)">
+      <node ref="C923" pin="2" pintype="passive"/>
+      <node ref="C924" pin="1" pintype="passive"/>
+      <node ref="L924" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(C924-Pad2)">
+      <node ref="C924" pin="2" pintype="passive"/>
+      <node ref="C926" pin="1" pintype="passive"/>
+      <node ref="C927" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L927" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C927-Pad2)">
+      <node ref="C927" pin="2" pintype="passive"/>
+      <node ref="C928" pin="1" pintype="passive"/>
+      <node ref="C931" pin="1" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L931" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(C943-Pad1)">
+      <node ref="C943" pin="1" pintype="passive"/>
+      <node ref="R942" pin="1" pintype="passive"/>
+      <node ref="R943" pin="1" pintype="passive"/>
+      <node ref="T941" pin="1" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(C943-Pad2)">
+      <node ref="C943" pin="2" pintype="passive"/>
+      <node ref="C944" pin="1" pintype="passive"/>
+      <node ref="L944" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(C944-Pad2)">
+      <node ref="C944" pin="2" pintype="passive"/>
+      <node ref="C946" pin="1" pintype="passive"/>
+      <node ref="C947" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L947" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(C947-Pad2)">
+      <node ref="C947" pin="2" pintype="passive"/>
+      <node ref="C948" pin="1" pintype="passive"/>
+      <node ref="C951" pin="1" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L951" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D904-Pad1)">
+      <node ref="D904" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R907" pin="2" pintype="passive"/>
+      <node ref="R908" pin="1" pintype="passive"/>
+      <node ref="T904" pin="1" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D907-Pad2)">
+      <node ref="D907" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="T907" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(IC901-Pad7)">
+      <node ref="IC901" pin="7" pintype="input"/>
+      <node ref="R917" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L924" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(L927-Pad1)">
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L927" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(L931-Pad1)">
+      <node ref="L5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L931" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(L944-Pad2)">
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L944" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(L947-Pad2)">
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L947" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(L951-Pad2)">
+      <node ref="L6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L951" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(P901-Pad1)">
+      <node ref="P901" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R901" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(P911-Pad2)">
+      <node ref="P911" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R913" pin="2" pintype="passive"/>
+      <node ref="R916" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(R904-Pad1)">
+      <node ref="R904" pin="1" pintype="passive"/>
+      <node ref="T904" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(R907-Pad1)">
+      <node ref="R907" pin="1" pintype="passive"/>
+      <node ref="T904" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="T907" pin="1" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(R921-Pad2)">
+      <node ref="R921" pin="2" pintype="passive"/>
+      <node ref="T921" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(R941-Pad2)">
+      <node ref="R941" pin="2" pintype="passive"/>
+      <node ref="T941" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="40" name="P1">
+      <node ref="C951" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R951" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="P2">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="T907" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="42" name="P3">
+      <node ref="D904" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC901" pin="11" pintype="input"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="43" name="P4">
+      <node ref="D906" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="44" name="P6">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R917" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="P7">
+      <node ref="C906" pin="1" pintype="passive"/>
+      <node ref="D906" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC901" pin="9" pintype="input"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="46" name="P10">
+      <node ref="IC901" pin="1" pintype="input"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="47" name="P12">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R918" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="P15">
+      <node ref="C931" pin="2" pintype="passive"/>
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="L5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R931" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="unconnected-(J1-Pad8)">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
