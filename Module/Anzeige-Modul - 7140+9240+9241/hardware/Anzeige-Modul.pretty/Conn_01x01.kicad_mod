@@ -1,0 +1,13 @@
+(footprint "Conn_01x01" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 2 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9fe1bc17-39a4-4363-b5df-a8aaebd48fa3)
+  )
+  (fp_text value "Conn_01x01" (at 0 3.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e6672a95-18c3-4551-9d45-8aff05b105ea)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 1.75 1.75) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 8293b33c-de42-4d4c-915f-6b7121e5f729))
+)

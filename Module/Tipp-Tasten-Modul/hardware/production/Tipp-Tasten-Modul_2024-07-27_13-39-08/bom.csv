@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1181, C1182, C1183, C1184, C1186, C1187, C1188, C1191, C1192",C_Disc_D5.0mm_W2.5mm_P5.00mm,9,4.7nF,
+D1016,LED_D5.0mm,1,LED,
+"D1181, D1182, D1183, D1184, D1186, D1187, D1188, D1191, D1192",LED_D3.0mm,9,LED,
+J1,Conn_01x09,1,Conn_01x09_Female,
+"J10, J6, J8",SolderWirePad_single_1-5mmDrill,3,Conn_01x01_Female,
+"J2, J3",Conn_01x05,2,Conn_01x05_Female,
+"J4, J5",SolderWirePad_single_1-5mmDrill,2,Conn_01x01_Female,
+"SW1032, SW1181, SW1182, SW1183, SW1184, SW1186, SW1187, SW1188, SW1191",SW__PUSH_DPDT,9,SW_Push_Dual,
